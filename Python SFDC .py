@@ -27,7 +27,6 @@ print(sf.session_id, sf.sf_instance, sf.headers)
 
 # query recipe function
 
-
 def data_connections(fileUrl, Name):
     recipe_json = sf.query_more(
         f"{fileUrl}",
